@@ -1,5 +1,17 @@
 # ModularDynamicFeatureHilt
 
+An Android template project following a multi module approach with clean architecture. It has been built following Clean Architecture Principle, Repository Pattern, MVVM Architecture in the presentation layer as well as jetpack components.
+
+I created this repository to demonstrate best development practices by utilizing up to date tech-stack.
+
+### Details
+   - **Operating System** : Android
+   - **Programming Language**: [Kotlin](https://kotlinlang.org)
+   - **Architecture** : [MVVM and Data Binding](https://developer.android.com/jetpack/guide)
+   - **Dependency Injection** : [Hilt](https://dagger.dev/hilt/)
+   - **Fragment Management** : [Navigation Component](https://developer.android.com/guide/navigation/navigation-getting-started)
+   - **Design** : [Material Design 3](https://m3.material.io)
+
 ## Architecture.
 
 ### What is Clean Architecture?
