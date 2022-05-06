@@ -1,7 +1,7 @@
 package com.mbobiosio.favorite.di
 
 import android.content.Context
-import com.mbobiosio.favorite.ui.FavoriteFragment
+import com.mbobiosio.favorite.presentation.FavoriteFragment
 import com.mbobiosio.modularapp.di.DynamicFeatureDependencies
 import dagger.BindsInstance
 import dagger.Component

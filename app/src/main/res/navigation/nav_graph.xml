@@ -7,20 +7,20 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.mbobiosio.home.ui.HomeFragment"
+        android:name="com.mbobiosio.home.presentation.HomeFragment"
         android:label="HomeFragment"
         />
 
     <fragment
         android:id="@+id/regularFeatureFragment"
-        android:name="com.mbobiosio.favorite.ui.FavoriteFragment"
+        android:name="com.mbobiosio.favorite.presentation.FavoriteFragment"
         android:label="RegularFeatureFragment"
         tools:layout="@layout/favorite_fragment" />
 
 
     <fragment
         android:id="@+id/dynamicFeatureFragment"
-        android:name="com.mbobiosio.account.ui.AccountFragment"
+        android:name="com.mbobiosio.account.presentation.AccountFragment"
         android:label="Account Fragment" />
 
 </navigation>

@@ -1,7 +1,7 @@
 package com.mbobiosio.account.di
 
 import android.content.Context
-import com.mbobiosio.account.ui.AccountFragment
+import com.mbobiosio.account.presentation.AccountFragment
 import com.mbobiosio.modularapp.di.DynamicFeatureDependencies
 import dagger.BindsInstance
 import dagger.Component

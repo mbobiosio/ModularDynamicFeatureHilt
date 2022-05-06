@@ -1,7 +1,7 @@
 package com.mbobiosio.home.di
 
 import android.content.Context
-import com.mbobiosio.home.ui.HomeFragment
+import com.mbobiosio.home.presentation.HomeFragment
 import com.mbobiosio.modularapp.di.DynamicFeatureDependencies
 import dagger.BindsInstance
 import dagger.Component

@@ -3,8 +3,8 @@
     <string name="title_dynamic_feature">Module Title</string>
     <string name="hello_world_from_app">Hello World from App!</string>
     <string name="home_feature">Home</string>
-    <string name="regular_feature">Regular</string>
-    <string name="dynamic_feature">Account</string>
+    <string name="favorite_feature">Favorite</string>
+    <string name="account_feature">Account</string>
     <string name="app_feature">Home</string>
     <string name="title_home">Home</string>
     <string name="title_favorite">Favorite</string>

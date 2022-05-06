@@ -1,4 +1,4 @@
-package com.mbobiosio.account.ui
+package com.mbobiosio.account.presentation
 
 import android.content.Context
 import android.os.Bundle
