@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.35743589743589743" />
+        <entry key="..\:/Programming/Kotlin/hilt-example/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Programming/Kotlin/hilt-example/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Programming/Kotlin/hilt-example/dynamic_feature/src/main/res/layout/fragment_dynamic_feature.xml" value="0.152" />
+        <entry key="..\:/Programming/Kotlin/hilt-example/regular_feature/src/main/res/layout/fragment_regular_feature.xml" value="0.2704791344667697" />
+        <entry key="..\:/Programming/Kotlin/hilt-multi-module-sample/app/src/main/res/layout/activity_main.xml" value="0.1816123188405797" />
+        <entry key="..\:/Programming/Kotlin/hilt-multi-module-sample/myapp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/app/src/main/res/menu/bottom_menu.xml" value="0.16041666666666668" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.13552800342026508" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.1" />
+        <entry key="features/account/src/main/res/layout/fragment_account.xml" value="0.13552800342026508" />
+        <entry key="features/home/src/main/res/layout/fragment_home.xml" value="0.13552800342026508" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

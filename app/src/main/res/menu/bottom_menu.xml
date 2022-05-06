@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home_feature" />
+
+    <item
+        android:id="@+id/regularFeatureFragment"
+        android:icon="@drawable/ic_favorite_border"
+        android:title="@string/regular_feature" />
+
+    <item
+        android:id="@+id/dynamicFeatureFragment"
+        android:icon="@drawable/ic_account_circle"
+        android:title="@string/dynamic_feature" />
+</menu>
