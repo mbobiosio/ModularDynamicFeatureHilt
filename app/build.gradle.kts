@@ -13,10 +13,15 @@ android {
         applicationId = AndroidConfig.APPLICATION_ID
         minSdk = AndroidConfig.MIN_SDK
         targetSdk = AndroidConfig.TARGET_SDK
+        /*
+        Retaining versionCode to a fixed number to avoid breaking instant run.
+        */
         versionCode = AndroidConfig.VERSION_CODE
         versionName = AndroidConfig.VERSION_NAME
 
         testInstrumentationRunner = AndroidConfig.TEST_INSTRUMENTATION_RUNNER
+        vectorDrawables.useSupportLibrary = true
+        setProperty("archivesBaseName", "$applicationId-v$versionName(${AndroidConfig.versionBuild})")
     }
 
     buildTypes {
@@ -34,10 +39,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_11.toString()
-    }
-
     buildFeatures {
         viewBinding = true
     }
@@ -46,6 +47,20 @@ android {
         add(DynamicFeature.home)
         add(DynamicFeature.favorite)
         add(DynamicFeature.account)
+    }
+
+    sourceSets {
+        getByName("main").java.srcDir("src/main/kotlin")
+        getByName("test").java.srcDir("src/test/kotlin")
+        getByName("androidTest").java.srcDir("src/androidTest/kotlin")
+    }
+
+    applicationVariants.all {
+        outputs.all {
+            val outputImpl = this as com.android.build.gradle.internal.api.ApkVariantOutputImpl
+            if (!buildType.isDebuggable)
+                outputImpl.versionCodeOverride = AndroidConfig.versionBuild
+        }
     }
 }
 

@@ -11,5 +11,17 @@ object Plugins {
     const val ANDROID_DYNAMIC_FEATURE = "com.android.dynamic-feature"
     const val JETBRAINS_KOTLIN_ANDROID = "org.jetbrains.kotlin.android"
     const val NAVIGATION_SAFE_ARGS = "androidx.navigation.safeargs.kotlin"
+    const val AndroidxNavigation = "androidx.navigation"
+    const val Detekt = "io.gitlab.arturbosch.detekt"
+    const val KtLint = "org.jlleitschuh.gradle.ktlint"
+    const val BenManesVersions = "com.github.ben-manes.versions"
+}
 
+object PluginVersion {
+    const val AGP = "7.1.3"
+    const val KGP = "1.6.21"
+    const val Navigation = "2.4.2"
+    const val KtLint = "10.3.0"
+    const val Detekt = "1.20.0"
+    const val BenManesVersions = "0.42.0"
 }
