@@ -29,14 +29,14 @@ I created this repository to demonstrate best development practices by utilizing
 
 - When using dynamic delivery you'll need a PlayStore Developer Account in order to test the dynamic delivery feature However, there is a work around by using [GloballyDynamic](https://globallydynamic.io/) which provides the same dynamic delivery capabilities as PlayStore with other added advantages well suited for testing. [Read More](https://proandroiddev.com/globallydynamic-dynamic-delivery-during-development-f28093ed184f).
 
-- Dynamic feature modules require use of Android App Bundles which at the moment are not supported by all app distribution platforms and the platforms that support app bundles have diffrent integrations. However, this can be solved by using [GloballyDynamic](https://globallydynamic.io/).
+- Dynamic feature modules require use of Android App Bundles which at the moment are not supported by all app distribution platforms and the platforms that support app bundles have different integrations. However, this can be solved by using [GloballyDynamic](https://globallydynamic.io/).
 
 So let's get started ...
 
 ## App Structure
 ### Dynamic Feature Modules and Dynamic Delivery?
 
-`Dynamic feature modules` allow separation of certain features and resources from the base module of the app and include them in the app bundle. User can then download and install these modules later when they are required(on demand) even after the app has already been installed.E.g. In Notflix the Favorites feature/module is not installed when the app is first installed since not all user use that feature but later on the can opt to download it when the need arises. These features/modules can also be uninstalled later without installing the entire app
+`Dynamic feature modules` allow separation of certain features and resources from the base module of the app and include them in the app bundle. User can then download and install these modules later when they are required(on demand) even after the app has already been installed.
 
 `Dynamic Delivery` is Google Play's app serving model that uses [Android App Bundles](https://developer.android.com/guide/app-bundle) to generate and server optimized APKs for each user's device configuration so that users download only the feature and resources the need to run the app.
 
