@@ -20,7 +20,8 @@ I created this repository to demonstrate best development practices by utilizing
 
 ## Prerequisite.
 
-In order to be able to build the application you'll need to change the api key in [`gradle.properties`](link_to_gradle.properties_file). First and formost you need to generate your own api key by [creating](https://www.themoviedb.org/signup) an IMDB account and [generating](https://www.themoviedb.org/settings/api) an api key.
+1. Android Studio : Arctic Fox | 2020.3.1	3.1 or higher
+2. Android Emulator or Physical android device
 
 ## Disclaimer.
 
