@@ -20,5 +20,5 @@ abstract class DynamicFeatureModule {
     @Binds
     @IntoMap
     @ViewModelKey(HomeViewModel::class)
-    internal abstract fun bindDynamicFeatureViewModel(viewModel: HomeViewModel): ViewModel
+    internal abstract fun bindHomeViewModel(viewModel: HomeViewModel): ViewModel
 }

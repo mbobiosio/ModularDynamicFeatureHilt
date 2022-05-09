@@ -1,3 +1,7 @@
+import extensions.androidTestDeps
+import extensions.favoriteModuleDeps
+import extensions.unitTestDeps
+
 plugins {
     id(Plugins.ANDROID_DYNAMIC_FEATURE)
     kotlin(Plugins.ANDROID)
@@ -26,7 +30,7 @@ android {
 
     buildFeatures {
         viewBinding = true
-        //dataBinding = true
+        // dataBinding = true
     }
 
     kapt {
@@ -43,31 +47,12 @@ kapt {
 }
 
 dependencies {
-    implementation(project(Modules.common))
-    implementation(project(Modules.app))
-    implementation(project(Modules.data))
-    implementation(project(Modules.domain))
-
-    // Navigation Component
-    implementation(Libs.AndroidX.Navigation.fragment)
-
-    // Hilt
-    implementation(Libs.Dagger.hiltAndroid)
-    kapt(Libs.Dagger.hiltAndroidCompiler)
+    // Required dependencies
+    favoriteModuleDeps()
 
     // Unit Test
-    testImplementation(Libs.JUnit.junit)
-    testImplementation(Libs.AndroidX.Test.coreTesting)
-    testImplementation(Libs.Turbine.turbine)
-    testImplementation(Libs.Coroutines.test)
-    testImplementation(Libs.MockWebServer.mockwebserver)
+    unitTestDeps()
 
     // Android Test
-    androidTestImplementation(Libs.Turbine.turbine)
-    androidTestImplementation(Libs.AndroidX.Test.core)
-    androidTestImplementation(Libs.AndroidX.Test.rules)
-    androidTestImplementation(Libs.AndroidX.Test.Ext.junit)
-    androidTestImplementation(Libs.AndroidX.Test.espressoCore)
-    androidTestImplementation(Libs.MockWebServer.mockwebserver)
-    androidTestImplementation(Libs.MockWebServer.okhttpIdlingResource)
+    androidTestDeps()
 }

@@ -1,8 +1,7 @@
 package com.mbobiosio.common
 
+import org.junit.Assert.* // ktlint-disable no-wildcard-imports
 import org.junit.Test
-
-import org.junit.Assert.*
 
 /**
  * Example local unit test, which will execute on the development machine (host).

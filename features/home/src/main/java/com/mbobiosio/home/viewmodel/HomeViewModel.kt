@@ -9,8 +9,9 @@ import javax.inject.Inject
 * Twitter: @cazewonder
 * Nigeria
 */
-class HomeViewModel @Inject constructor(private val repository: SampleRepository
-): ViewModel() {
+class HomeViewModel @Inject constructor(
+    private val repository: SampleRepository
+) : ViewModel() {
 
     fun getDescription() = repository.getDescription()
 }

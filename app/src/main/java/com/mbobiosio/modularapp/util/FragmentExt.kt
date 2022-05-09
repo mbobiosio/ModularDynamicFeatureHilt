@@ -7,12 +7,6 @@ import androidx.navigation.fragment.findNavController
 import com.mbobiosio.modularapp.R
 import timber.log.Timber
 
-/*
-* Created by Mbuodile Obiosio on May 05, 2022.
-* Twitter: @cazewonder
-* Nigeria
-*/
-
 /**
  * When trying to navigate to a destination that is not included in the current navigation graph
  * the app will crash:

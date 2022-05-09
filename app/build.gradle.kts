@@ -1,3 +1,7 @@
+import extensions.androidTestDeps
+import extensions.appModuleDeps
+import extensions.unitTestDeps
+
 plugins {
     id(Plugins.ANDROID_APPLICATION)
     kotlin(Plugins.ANDROID)
@@ -21,7 +25,10 @@ android {
 
         testInstrumentationRunner = AndroidConfig.TEST_INSTRUMENTATION_RUNNER
         vectorDrawables.useSupportLibrary = true
-        setProperty("archivesBaseName", "$applicationId-v$versionName(${AndroidConfig.versionBuild})")
+        setProperty(
+            "archivesBaseName",
+            "$applicationId-v$versionName(${AndroidConfig.versionBuild})"
+        )
     }
 
     buildTypes {
@@ -73,33 +80,12 @@ kapt {
 }
 
 dependencies {
-    implementation(project(Modules.common))
-    implementation(project(Modules.data))
-    implementation(project(Modules.domain))
+    // Required dependencies
+    appModuleDeps()
 
-    // Navigation Component
-    implementation(Libs.AndroidX.Navigation.ui)
-    implementation(Libs.AndroidX.Navigation.fragment)
-    implementation(Libs.AndroidX.Navigation.dynamicFeaturesFragment)
-    androidTestImplementation(Libs.AndroidX.Navigation.testing)
+    // Unit Test Deps
+    unitTestDeps()
 
-    // Hilt
-    implementation(Libs.Dagger.hiltAndroid)
-    kapt(Libs.Dagger.hiltAndroidCompiler)
-
-    // Unit Test
-    testImplementation(Libs.JUnit.junit)
-    testImplementation(Libs.AndroidX.Test.coreTesting)
-    testImplementation(Libs.Turbine.turbine)
-    testImplementation(Libs.Coroutines.test)
-    testImplementation(Libs.MockWebServer.mockwebserver)
-
-    // Android Test
-    androidTestImplementation(Libs.Turbine.turbine)
-    androidTestImplementation(Libs.AndroidX.Test.core)
-    androidTestImplementation(Libs.AndroidX.Test.rules)
-    androidTestImplementation(Libs.AndroidX.Test.Ext.junit)
-    androidTestImplementation(Libs.AndroidX.Test.espressoCore)
-    androidTestImplementation(Libs.MockWebServer.mockwebserver)
-    androidTestImplementation(Libs.MockWebServer.okhttpIdlingResource)
+    // Instrumentation Test Deps
+    androidTestDeps()
 }

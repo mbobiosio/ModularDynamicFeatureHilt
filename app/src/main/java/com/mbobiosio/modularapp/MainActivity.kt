@@ -30,7 +30,7 @@ class MainActivity : BaseBindingActivity() {
         with(binding) {
 
             bottomNavigationView.setupWithNavController(navController)
-            bottomNavigationView.setOnItemReselectedListener {  }
+            bottomNavigationView.setOnItemReselectedListener { }
 
             navManager.setOnNavEvent {
                 val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_container)
@@ -38,7 +38,6 @@ class MainActivity : BaseBindingActivity() {
 
                 currentFragment?.navigateSafe(it)
             }
-
         }
     }
 }

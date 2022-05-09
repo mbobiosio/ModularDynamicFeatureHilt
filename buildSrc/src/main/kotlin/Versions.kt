@@ -1,3 +1,7 @@
+object Ext {
+    const val ExtVersion = ""
+}
+
 object AndroidConfig {
     const val APPLICATION_ID = "com.mbobiosio.modularapp"
     const val MIN_SDK = 21
@@ -9,7 +13,7 @@ object AndroidConfig {
     private const val versionPatch = 0
 
     const val VERSION_CODE = 1
-    const val VERSION_NAME = "${versionMajor}.${versionMinor}.${versionPatch}"
+    const val VERSION_NAME = "$versionMajor.$versionMinor.$versionPatch"
 
     const val TEST_INSTRUMENTATION_RUNNER = "androidx.test.runner.AndroidJUnitRunner"
 

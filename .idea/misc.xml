@@ -14,8 +14,9 @@
         <entry key="app/app/src/main/res/menu/bottom_menu.xml" value="0.16041666666666668" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.13552800342026508" />
         <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.1" />
-        <entry key="features/account/src/main/res/layout/fragment_account.xml" value="0.13552800342026508" />
-        <entry key="features/home/src/main/res/layout/fragment_home.xml" value="0.13552800342026508" />
+        <entry key="features/account/src/main/res/layout/fragment_account.xml" value="0.274903805044891" />
+        <entry key="features/favorite/src/main/res/layout/favorite_fragment.xml" value="0.274903805044891" />
+        <entry key="features/home/src/main/res/layout/fragment_home.xml" value="0.274903805044891" />
       </map>
     </option>
   </component>

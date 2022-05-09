@@ -25,7 +25,6 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
-
 }
 rootProject.name = "ModularDynamicFeatureHilt"
 include(
