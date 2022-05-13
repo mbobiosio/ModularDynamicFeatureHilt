@@ -97,6 +97,10 @@ This project will continuously receive updates to improve overall codebase and o
 
 <img src="assets/home.png" alt="Home" width="250"> <img src="assets/favorite.png" alt="Favorite" width="250"> <img src="assets/account.png" alt="Account" width="250">
 
+## Author
+
+* [Mbuodile Obiosio](https://www.linkedin.com/in/mb-obiosio/)
+
 ## 📝 License
 This project is released under the MIT license.
 See [LICENSE](./LICENSE) for details.
@@ -104,7 +108,7 @@ See [LICENSE](./LICENSE) for details.
 ```
 MIT License
 
-Copyright (c) 2022 [Mbuodile Obiosio](https://www.linkedin.com/in/mb-obiosio/)
+Copyright (c) 2022 Mbuodile Obiosio
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
