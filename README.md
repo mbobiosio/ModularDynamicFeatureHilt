@@ -59,6 +59,7 @@ The circles represent different layers of your app. Note that:
 - Another principle of Clean Architecture is the [Dependency Inversion](https://en.wikipedia.org/wiki/Dependency_inversion_principle). This rule specifies that each circle can depend only on the nearest inward circle ie. low-level modules do not depend on high-level modules but the other way around.
 
 ### Why Clean Architecture?
+
 - Loose coupling between the code - The code can easily be modified without affecting any or a large part of the app's codebase.
 - Easier to test code.
 - Separation of Concern - Different modules have specific responsibilities making it easier for modification and maintenance.
@@ -76,21 +77,24 @@ The circles represent different layers of your app. Note that:
 - [__Dependency Inversion__](https://en.wikipedia.org/wiki/Dependency_inversion_principle): Components should depend on abstractions rather than concrete implementations. Also higher level modules shouldn’t depend on lower level modules.
 
 ### Gradle Setup
+
 - [GitHub Actions](https://github.com/mbobiosio/ModularDynamicFeatureHilt/actions) - GitHub actions is used in this project to check for syntax correctness using KtLint, execute the unit tests and generate a new package when pushing changes to the main branch.
 - [KtLint](https://github.com/pinterest/ktlint) - The project uses KtLint to check for syntax correctness.
 - [Detekt](https://github.com/detekt/detekt) - The project uses Detekt for Kotlin Static Analysis.
 
-## Installation
+### Installation
 
 * To run this code, clone this repository using this command `git clone git@github.com:mbobiosio/ModularDynamicFeatureHilt.git`
 * Import into android studio
 * Build the project and run on an android device or emulator
 
-## Conclusion
+### Conclusion
+
 This project is designed to be a barebone template for new apps.
 This project will continuously receive updates to improve overall codebase and other libraries and techniques to keep it up to date.
 
-## Screenshots
+### Screenshots
+
 <img src="assets/home.png" alt="Home" width="250"> <img src="assets/favorite.png" alt="Favorite" width="250"> <img src="assets/account.png" alt="Account" width="250">
 
 ## 📝 License
@@ -100,7 +104,7 @@ See [LICENSE](./LICENSE) for details.
 ```
 MIT License
 
-Copyright (c) 2022 Mbuodile Obiosio
+Copyright (c) 2022 [Mbuodile Obiosio](https://www.linkedin.com/in/mb-obiosio/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

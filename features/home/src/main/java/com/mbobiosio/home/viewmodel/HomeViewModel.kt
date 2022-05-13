@@ -4,8 +4,8 @@ import androidx.lifecycle.ViewModel
 import com.mbobiosio.domain.SampleRepository
 import javax.inject.Inject
 
-/*
-* Created by Mbuodile Obiosio on May 06, 2022.
+/**
+* @author Mbuodile Obiosio
 * Twitter: @cazewonder
 * Nigeria
 */
