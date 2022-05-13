@@ -82,11 +82,21 @@ The circles represent different layers of your app. Note that:
 - [KtLint](https://github.com/pinterest/ktlint) - The project uses KtLint to check for syntax correctness.
 - [Detekt](https://github.com/detekt/detekt) - The project uses Detekt for Kotlin Static Analysis.
 
-### Installation
+## Getting started
 
-* To run this code, clone this repository using this command `git clone git@github.com:mbobiosio/ModularDynamicFeatureHilt.git`
-* Import into android studio
-* Build the project and run on an android device or emulator
+There are a few ways to open this project.
+
+### Android Studio
+
+1. `Android Studio` -> `File` -> `New` -> `From Version control` -> `Git`
+2. Enter `git@github.com:mbobiosio/ModularDynamicFeatureHilt.git` into URL field an press `Clone` button
+3, Build the project and run on an android device or emulator
+
+### Command-line + Android Studio
+
+1. Run `git clone git@github.com:mbobiosio/ModularDynamicFeatureHilt.git` command to clone project
+2. Open `Android Studio` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
+3. Build the project and run on an android device or emulator
 
 ### Conclusion
 
@@ -100,6 +110,7 @@ This project will continuously receive updates to improve overall codebase and o
 ## Author
 
 * [Mbuodile Obiosio](https://www.linkedin.com/in/mb-obiosio/)
+* [![Follow me](https://img.shields.io/twitter/follow/cazewonder?style=social)](https://twitter.com/cazewonder)
 
 ## 📝 License
 This project is released under the MIT license.
