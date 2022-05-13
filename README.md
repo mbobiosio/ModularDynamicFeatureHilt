@@ -80,6 +80,12 @@ The circles represent different layers of your app. Note that:
 - [KtLint](https://github.com/pinterest/ktlint) - The project uses KtLint to check for syntax correctness.
 - [Detekt](https://github.com/detekt/detekt) - The project uses Detekt for Kotlin Static Analysis.
 
+## Installation
+
+* To run this code, clone this repository using this command `git clone git@github.com:mbobiosio/ModularDynamicFeatureHilt.git`
+* Import into android studio
+* Build the project and run on an android device or emulator
+
 ## Conclusion
 This project is designed to be a barebone template for new apps.
 This project will continuously receive updates to improve overall codebase and other libraries and techniques to keep it up to date.
