@@ -1,7 +1,5 @@
 object Modules {
     const val app = ":app"
-    const val core = ":core"
-    const val util = ":util"
     const val data = ":data"
     const val common = ":common"
     const val domain = ":domain"

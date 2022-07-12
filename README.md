@@ -107,7 +107,7 @@ This project will continuously receive updates to improve overall codebase and o
 
 <img src="assets/home.png" alt="Home" width="250"> <img src="assets/favorite.png" alt="Favorite" width="250"> <img src="assets/account.png" alt="Account" width="250">
 
-## Author
+### Author
 
 * [Mbuodile Obiosio](https://www.linkedin.com/in/mb-obiosio/)
 * [![Follow me](https://img.shields.io/twitter/follow/cazewonder?style=social)](https://twitter.com/cazewonder)
